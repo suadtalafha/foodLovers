@@ -102,6 +102,6 @@ function getRandomInt(min, max) {
       
       new FoodLovers(name,food);
       render();
-
+   
   }
   getItem()
