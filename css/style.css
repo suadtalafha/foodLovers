@@ -3,7 +3,8 @@
     margin-top: 137px;
     float: left;
     background-color: yellow;
-    height: 337px;
+    height: 168px;
+    overflow: scroll;
 }
 
 #myForm{
@@ -44,7 +45,8 @@ label{
   
     color: red;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 20px;
 }
 input{
     display: table-cell;

@@ -63,17 +63,18 @@ function getRandomInt(min, max) {
          let imgEl1=document.createElement('img');
          trEl.appendChild(imgEl1);
          imgEl1.setAttribute('src',myFood[i].img2);
-         imgEl1.style.width='60px';
+         imgEl1.style.width='110px';
      }else if(myFood[i].food==="burger"){
         let imgEl2=document.createElement('img');
         trEl.appendChild(imgEl2);
         imgEl2.setAttribute('src',myFood[i].img);
         imgEl2.style.width='60px';
+        imgEl2.style.height='90px';
      }else if (myFood[i].food==="pitzaa"){
         let imgEl3=document.createElement('img');
         trEl.appendChild(imgEl3);
         imgEl3.setAttribute('src',myFood[i].img1);
-        imgEl3.style.width='60px';
+        imgEl3.style.width='110px';
      }
 
      let td2=document.createDocumentFragment('td');
